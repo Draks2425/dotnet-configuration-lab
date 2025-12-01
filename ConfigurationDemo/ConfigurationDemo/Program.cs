@@ -10,7 +10,7 @@ namespace ConfigurationDemo
     {
         static void Main(string[] args)
         {
-            //konfiguration (builder)
+            //configuration (builder)
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
