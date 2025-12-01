@@ -24,7 +24,7 @@ namespace ConfigurationDemo
             //register options pattern
             services.AddOptions();
 
-            //configurate class AnimalsSettings taking data from "Animals" section i JSON
+            //configurate class AnimalsSettings taking data from "Animals" section and JSON
             services.Configure<AnimalsSettings>(config.GetSection("Animals"));
 
             //build service provider
